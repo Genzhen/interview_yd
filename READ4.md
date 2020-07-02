@@ -157,13 +157,21 @@ fuction creat(obj){
 
 > 常用的块状元素有：
 
-> <div>、<p>、<h1>...<h6>、<ol>、<ul>、<dl>、<table>、<address>、<blockquote> 、<form>
+```javascript
+<div>、<p>、<h1>...<h6>、<ol>、<ul>、<dl>、<table>、<address>、<blockquote> 、<form>
+```
 
 > 常用的内联元素有：
-> <a>、<span>、<i>、<em>、<strong>、<label>、<q>、<var>、<cite>、<code>
+
+```javascript
+<a>、<span>、<i>、<em>、<strong>、<label>、<q>、<var>、<cite>、<code>
+```
 
 > 常用的内联块状元素有：
-> <img>、<input>
+
+```javascript
+ <img>、<input>
+```
 
 ## 尾递归实现
 
