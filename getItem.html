@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" onclick="getTargeName(event)">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script type="text/javascript">
+      function getTargeName(e) {
+        console.log(e)
+        const evt = e || window.event
+        const target = evt.target || evt.srcElement
+        console.log("targe-----", target)
+        console.log(target.nodeName)
+      }
+    </script>
+  </head>
+  <body>
+    <div style="width: 850px; background-color: yellow;">
+      <p>This is  p.</p>
+      <div style="width: 600px; background-color: orange;">
+        <p>This is p.</p>
+      </div>
+      <p>This is  p.</p>
+    </div>
+    <br />
+    <div style="width: 850px; background-color: cyan;">
+      <p>This is  p.</p>
+      <div style="width: 600px; background-color: lightblue;">
+        <p>This is p.</p>
+      </div>
+      <p>This is  p.</p>
+    </div>
+  </body>
+</html>
