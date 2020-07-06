@@ -1,11 +1,9 @@
-## 实现 Promise.all
+## 面试题总结
 
-> promiseAll.js
+保存每个文件夹下 README.md 文件
 
-## 用 css 实现扇形
+## 算法题
 
-> shanxing.html
+> 下一个排列
 
-## 对称加密和非对称加密的区别和用处
-
-jiami.md
+ctrl + shift + v
